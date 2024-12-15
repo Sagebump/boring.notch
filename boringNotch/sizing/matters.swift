@@ -15,11 +15,11 @@ let downloadSneakSize: CGSize = .init(width: 65, height: 1)
 let batterySneakSize: CGSize = .init(width: 160, height: 1)
 
 let openNotchSize: CGSize = .init(width: 580, height: 175)
-let cornerRadiusInsets:  (opened: CGFloat, closed: CGFloat) = (opened: 24, closed: 10)
+let cornerRadiusInsets:  (opened: CGFloat, closed: CGFloat) = (opened: 24, closed: 8)
 
 struct MusicPlayerImageSizes {
-    static let cornerRadiusInset: (opened: CGFloat, closed: CGFloat) = (opened: 13.0, closed: 4.0)
-    static let size = (opened: CGSize(width: 90, height: 90), closed: CGSize(width: 20, height: 20))
+    static let cornerRadiusInset: (opened: CGFloat, closed: CGFloat) = (opened: 13.0, closed: 3.0)
+    static let size = (opened: CGSize(width: 90, height: 90), closed: CGSize(width: 18, height: 18))
 }
 
 func getClosedNotchSize(screen: String? = nil) -> CGSize {
